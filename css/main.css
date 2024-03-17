@@ -3,39 +3,122 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-.topNav {
-    overflow: hidden;
-    background-color: #FFFFFF;
+ .HomeHeader {
+        background-image: url(../assets/Red\ Planet\ Ventures/.header);
+        background-size: cover;
+        background-position: center;
+        height: 600px; 
+        position: relative;
+        overflow: hidden;
+}
+      
+.navigation {
+        background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 20px 0;
+        z-index: 1; /* Ensures navigation is above header image */
+}
+      
+.logo {
+        float: left;
+        margin-left: 20px;
+}
+      
+.menu {
+        float: right;
+        margin-right: 20px;
+}
+      
+.menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+      
+.menu ul li {
+        display: inline;
+        margin-left: 20px;
+}
+      
+.menu ul li a {
+        color: #333;
+        text-decoration: none;
+        font-size: 16px;
+}
+      
+.content {
+        padding: 20px;
+}
+    
+nav {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 15px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     
-    .topNav a {
-    float: left;
-    color: #707070;
-    text-align: center;
-    padding: 16px 20px;
-    text-decoration: none;
-    font-size: 20px;
-    text-decoration: none;
-    }
+.logo {
+        color: black; /* adjust color as needed */
+}
     
+.navLinks {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+}
     
-    .topNavCenter {
-    float: center;
-    }
+.navLinks li {
+        margin: 0 10px;
+}
     
-    .topNav a:hover {
-    background-color: #FF2D00;
-    color: #FFFFFF;
-    }
+.navLinks a {
+        text-decoration: none;
+}
     
-    .topNav a.active {
-    background-color: #9530FF;
-    color: #FFFFFF;
-    }
-
+.home {
+        color: red;
+}
+    
+.flights, .contact {
+        color: #333; /* adjust color as needed */
+}
+    
+.search-container {
+        display: flex;
+        align-items: center;
+}
+    
+.search-container input[type="text"] {
+        padding: 5px;
+        border-radius: 10px;
+}
+    
+.search-container button {
+        background: none;
+        border: none;
+}
+    
+.basket {
+        position: relative;
+        margin-left: 10px;
+}
+    
+ .basket img {
+        width: 30px;
+}
+    
+.badge {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        padding: 5px;
+        font-size: 12px;
+}
