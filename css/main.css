@@ -322,85 +322,97 @@ p {
   background-color: #e65c00;
 }
 
+/* Footer */
+
 .footer {
   background-color: white;
   color: black;
-  padding: 40px 0;
   font-family: "Roboto", sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
+.footer-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 20px;
+  flex-direction: row;
 }
 
 .company-info {
-  flex: 1 1 300px;
-}
-
-.logo {
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .tagline {
   font-size: 14px;
-  margin: 0;
+  font-weight: 400;
+  margin-left: 10px;
 }
 
-.footer-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.footer-nav {
   display: flex;
+  align-items: center;
 }
 
-.footer-nav li {
-  margin-right: 20px;
+.nav-links,
+.social-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
 }
 
-.footer-nav a {
+.nav-links span,
+.social-links span {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.sm-item {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav-links a {
   color: black;
   text-decoration: none;
   font-size: 16px;
+  margin-right: 20px;
   transition: color 0.3s ease;
 }
 
-.footer-nav a:hover {
+.nav-links a:hover {
   color: #ff6f00;
 }
 
-.social-links {
-  display: flex;
-}
-
-.social-icon {
-  font-size: 20px;
-  color: black;
+.social-links a {
+  color: #9370db;
   margin-left: 15px;
   transition: color 0.3s ease;
 }
 
-.social-icon:hover {
+.social-links a:hover {
   color: #ff6f00;
 }
 
-.legal-info {
-  max-width: 1200px;
-  margin: 20px auto 0;
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  font-size: 14px;
+  width: 100%;
 }
 
-.legal-info p {
+.legal-text {
+  font-size: 14px;
   margin: 0;
 }
 
@@ -413,4 +425,11 @@ p {
 
 .links a:hover {
   color: #ff6f00;
+}
+
+.fab {
+  font-size: 24px;
+  margin-left: 10px;
+  height: 24px;
+  width: 24px;
 }
