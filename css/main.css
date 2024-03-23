@@ -94,7 +94,11 @@ nav {
   src: url(../assets/Red\ Planet\ Ventures/Fonts) format("woff");
 }
 
-.home-page {
+.imgTextOverlay {
+  position: relative;
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
   display: flex;
   content: "";
   justify-content: flex-start;
@@ -105,14 +109,20 @@ nav {
   background-image: url(../assets/Red\ Planet\ Ventures/.HomeHeader);
 }
 
-.home-text {
-  font-size: 2em;
-  color: black;
+.imgTextOverlay img {
+  width: 100%;
 }
 
-.title {
-  font-size: 2em;
-  color: black;
+.bottomLeft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.bottomLeftH {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
 
 .container {
@@ -143,13 +153,12 @@ nav {
   right: 0;
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 20px 20px;
+  width: 10%;
 }
 
-.arrow {
-  font-size: 24px;
-  font-weight: bold;
-  cursor: pointer;
+.arrowRight {
+justify-content: end;
 }
 
 .content {
@@ -279,7 +288,7 @@ p {
 }
 
 .mars {
-  background-image: url("../assets/Red Planet Ventures/Assets/Images/flighhtMars.png");
+  background-image: url("../assets/Red Planet Ventures/Assets/Images/flightMars.png");
 }
 
 .neptune {
