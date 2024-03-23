@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
 }
 
 .HomeHeader {
@@ -96,25 +97,320 @@ nav {
 .home-page {
   display: flex;
   content: "";
-  justify-content: center;
-  align-items: center;
-  margin-top: 2em;
-  height: 25rem;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 2em;
+  padding: 16px;
+  height: 45rem;
   background-image: url(../assets/Red\ Planet\ Ventures/.HomeHeader);
 }
 
-.featured-trip {
-  content: "";
+.home-text {
+  font-size: 2em;
+  color: black;
+}
+
+.title {
+  font-size: 2em;
+  color: black;
+}
+
+.container {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  margin-top: 2em;
-  height: 40em;
+  text-align: center;
   background-color: #590091;
+  padding: 2em;
 }
 
-.featured-trip-image {
+.image-container {
+  position: relative;
   width: 100%;
-  height: 100%;
-  background-image: url(../assets/Red\ Planet\ Ventures/.HomeHeader);
+  max-width: 500px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.arrow-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.arrow {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.book-now {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-now:hover {
+  background-color: #e65c00;
+}
+
+.container-os {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 2em;
+}
+
+.image-container-os {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.image-container-os img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.content-so {
+  margin-top: 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.container-td {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #590091;
+  padding: 2em;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.main-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.trip-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 24px;
+}
+
+.trip-card {
+  background-color: #3e1d66;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.trip-card-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  margin-bottom: 12px;
+  background-size: cover;
+  background-position: center;
+}
+
+.mars {
+  background-image: url("../assets/Red Planet Ventures/Assets/Images/flighhtMars.png");
+}
+
+.neptune {
+  background-image: url("../assets/Red Planet Ventures/Assets/Images/flightNeptune.png");
+}
+
+.jupiter {
+  background-image: url("../assets/Red Planet Ventures/Assets/Images/flightJupiter.png");
+}
+
+.saturn {
+  background-image: url("../assets/Red Planet Ventures/Assets/Images/flightSaturn.png");
+}
+
+.trip-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.trip-card-description {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.book-trip-btn {
+  background-color: #ff6f00;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-trip-btn:hover {
+  background-color: #e65c00;
+}
+
+.footer {
+  background-color: white;
+  color: black;
+  padding: 40px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.company-info {
+  flex: 1 1 300px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-nav li {
+  margin-right: 20px;
+}
+
+.footer-nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #ff6f00;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: black;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #ff6f00;
+}
+
+.legal-info {
+  max-width: 1200px;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.legal-info p {
+  margin: 0;
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #ff6f00;
 }
