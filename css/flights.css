@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #14213D;
+    color: #FCA311;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    background-color: #2B3467;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.rating {
+    color: #FFC75F;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info-btn,
+.book-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info-btn {
+    background-color: #FCA311;
+    color: #2B3467;
+    margin-right: 10px;
+}
+
+.book-btn {
+    background-color: #E5E5E5;
+    color: #2B3467;
+}
+
+.info-btn:hover,
+.book-btn:hover {
+    background-color: #FFC75F;
+}
+
+.view-cart {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.view-cart button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #FCA311;
+    color: #2B3467;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-cart button:hover {
+    background-color: #FFC75F;
+}
