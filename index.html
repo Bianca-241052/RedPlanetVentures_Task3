@@ -21,62 +21,52 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
 
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
-  <div class="HomeHeader">
-    <img
-      src="assets/Red Planet Ventures/Assets/Images/homePageHeader.png"
-      width="100%"
-    />
-  </div>
   <body>
-    <nav>
-      <div class="logo">
-        <img
-          src="assets/Red Planet Ventures/Assets/Images/logo.png"
-          width="200px"
-        />
-      </div>
-      <ul class="navLinks">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="pages/contact.html">Contact Us</a></li>
-        <li><a href="pages/flights.html">Flights</a></li>
-      </ul>
-      <div class="search-container">
-        <input type="text" placeholder="Search..." />
-        <button type="submit">
+    <header class="HomeHeader">
+      <nav>
+        <div class="logo">
           <img
-            src="assets/Red Planet Ventures/Assets/search-icon.png"
-            width="20px"
+            src="assets/Red Planet Ventures/Assets/Images/logo.png"
+            width="200px"
           />
-        </button>
-        <div class="basket">
-          <img
-            src="assets/Red Planet Ventures/Assets/basket.png"
-            width="20px"
-          />
-          <span class="badge">2</span>
         </div>
-      </div>
-    </nav>
+        <ul class="navLinks">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="pages/contact.html">Contact Us</a></li>
+          <li><a href="pages/flights.html">Flights</a></li>
+        </ul>
+        <div class="search-container">
+          <button type="submit">
+            <img
+              src="assets/Red Planet Ventures/Assets/search-icon.png"
+              width="20px"
+            />
+          </button>
+          <input class="searchInput" type="text" placeholder="Search..." />
+          <div class="line"></div>
+          <div class="basket">
+            <img class="searchIcon"
+              src="assets/Red Planet Ventures/Assets/basket.png"
+            />
+            <span class="badge">2</span>
+          </div>
+        </div>
+      </nav>
 
-    <section class="imgTextOverlay">
-      <div class="bottomLeftH">EXPLORE THE SOLAR SYSTEM</div>
-        <h1 class="bottom Left">Red Planet Ventures</h1>
-      </div>
-    </section>
+      <section class="imgTextOverlay">
+        <h1 class="bottomLeft">Red Planet <br> Ventures</h1>
+        <div class="bottomLeftH">EXPLORE THE SOLAR SYSTEM</div>
+      </section>
+    </header>
 
     <section class="container">
       <div class="image-container">
         <img
           src="assets/Red Planet Ventures/Assets/Images/marsSliderClipped1.png"
-          width="100%"
         />
         <div class="arrow-container">
           <div class="arrowLeft"><img src="assets/Red Planet Ventures/Assets/Images/arrowLeftWhite.png"></div> 
@@ -113,10 +103,6 @@
           src="assets/Red Planet Ventures/Assets/Images/spacSchuttles.png"
           width="100%"
         />
-        <div class="arrow-container">
-          <span class="arrow left">&#10094;</span>
-          <span class="arrow right">&#10095;</span>
-        </div>
       </div>
     </section>
 
@@ -160,14 +146,20 @@
   <footer class="footer">
     <div class="footer-top">
       <div class="company-info">
-        RED PLANET VENTURES<span class="tagline"
+        <div class="logoFooter">
+          <img
+            src="assets/Red Planet Ventures/Assets/Images/logo.png"
+            width="250px"
+          />
+        </div>
+        <span class="tagline"
           >Offering unforgettable trips to explore planets in our solar
           system.</span
         >
       </div>
       <nav class="footer-nav">
         <div class="nav-links">
-          <span>Company</span>
+          <div class="SocialTile">Company</div>
           <a href="#">Home</a>
           <a href="#">Flights</a>
           <a href="#">Contact Us</a>
@@ -175,7 +167,7 @@
       </nav>
 
       <div class="social-links">
-        <span>Social Media Links</span>
+        <div class="SocialTile">Social Media Links</div>
 
         <div class="sm-item">
           <a href="https://www.instagram.com/"
@@ -183,7 +175,7 @@
               <img
                 src="assets/Red Planet Ventures/Assets/Images/smInstagram.png"
                 alt="Instagram"
-                width="32px"
+                width="60px"
               /> </i
           ></a>
           <a href="https://www.tiktok.com/"
@@ -191,7 +183,7 @@
               <img
                 src="assets/Red Planet Ventures/Assets/Images/smTicktock.png"
                 alt="Ticktock"
-                width="32px"
+                width="60px"
               /> </i
           ></a>
           <a href="https://www.facebook.com/"
@@ -199,7 +191,7 @@
               <img
                 src="assets/Red Planet Ventures/Assets/Images/smFacebook.png"
                 alt="Facebook"
-                width="32px"
+                width="60px"
               /> </i
           ></a>
           <a href="https://www.x.com/"
@@ -207,12 +199,15 @@
               <img
                 src="assets/Red Planet Ventures/Assets/Images/smX.png"
                 alt="X"
-                width="32px"
+                width="60px"
               /> </i
           ></a>
         </div>
       </div>
     </div>
+
+    <hr>
+
     <div class="footer-bottom">
       <p class="legal-text">All Rights Reserved &copy; Open Window 2024</p>
       <div class="links">
