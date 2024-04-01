@@ -134,3 +134,88 @@ body {
     flex-direction: column;
   }
   
+  .flexRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5em;
+}
+
+.formContainer{
+    width: 50%;
+}
+
+/*.formContainer{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}*/
+
+h3{
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    display: block;
+    color: #d7f0f0;
+}
+
+#contact input, #contact text, #contact button{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#contact{
+    /*background-color: #f9f9f9;*/
+    background-image: url('../assets/Red Planet Ventures/Assets/Images/formBack.png');
+    background-size: cover;
+    background-position: right;
+    padding: 2em 4em;
+    margin: 50px 0;
+    border-radius: 15px;
+}
+
+fieldset{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input, #contact textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact textarea{
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button{
+    cursor: pointer;
+    width: 250px;
+    border: none;
+    background-color: #28c7cc;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#contact input:hover, #contact textarea:hover{
+    border: 1px solid #0044ff;
+}
+
+#contact input:focus, #contact textarea:focus{
+    outline: 0;
+    border: 3px solid #ff0000;
+}
+
+#contact button:hover{
+background-color: #28c7cc;
+}
