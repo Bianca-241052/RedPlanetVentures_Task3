@@ -20,11 +20,11 @@ body {
   justify-content: space-between;
 }
 
-.review{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 60%;
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
 }
 
 .FlightsHeader {
@@ -137,8 +137,10 @@ body {
 }
 
 .view-cart {
-  text-align: ;
-  margin-top: 20px;
+  text-align: end;
+  padding: 2em;
+  /* margin-top: 20px; */
+  background-color: #3c0062;
 }
 
 .view-cart button {
