@@ -217,7 +217,7 @@ label {
 
 fieldset {
   border: medium none !important;
-  margin: 10px;
+  margin-top: 10px;
   min-width: 100%;
   padding: 0;
   width: 100%;
@@ -228,7 +228,7 @@ fieldset {
   width: 90%;
   border: 1px solid #ccc;
   background-color: #f3f3f3;
-  margin: 10px;
+  margin: 0 0 5px;
   padding: 20px !important;
   border: none !important;
   border-radius: 10px;
