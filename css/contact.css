@@ -1,171 +1,130 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .logo {
-    float: left;
-    margin-left: 20px;
-  }
-
-  .contactHeader{
-    background-image: url('../assets/Red Planet Ventures/Assets/Images/headerbackBack.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 2em;
-    height: 350px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    flex-direction: column; 
-  }
-  
-  nav {
-    background-color: rgba(255, 255, 255, 0.648);
-    border-radius: 25px;
-    padding: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 2em;
-    margin-right: 2em;
-    width: 90%;
-  }
-
-  .navLinks {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navLinks li {
-    margin: 0 10px;
-  }
-  
-  .navLinks a {
-    text-decoration: none;
-  }
-  
-  .active {
-    color: red;
-  }
-  
-  .flights,
-  .contact {
-    color: #333;
-  }
-  
-  .search-container {
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    margin-right: 40px;
-  }
-  
-  .searchInput{
-    border: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .searchIcon{
-    background-position: center;
-  }
-  
-  .line{
-    height: 30px;
-    width: 1px;
-    background-color: lightgrey;
-    margin-left: 5px;
-  }
-  
-  .search-container input[type="text"] {
-    padding: 5px;
-    border-radius: 10px;
-  }
-  
-  .search-container button {
-    background: none;
-    border: none;
-  }
-  
-  .basket {
-    position: relative;
-    margin-left: 10px;
-  }
-  
-  .basket img {
-    width: 30px;
-  }
-  
-  .badge {
-    position: absolute;
-    top: -25px;
-    right: -25px;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    padding: 5px;
-    font-size: 12px;
-    width: 15px;
-    height: 15px;
-    text-align: center;
-  }
-
-  .sm-items{
-    width: 97px 97px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-  }
-
-  .container-os {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    background-color: white;
-    padding: 3em;
-    margin-left: 5%;
-  }
-  
-  .image-container-os {
-    position: relative;
-    width: 45%;
-  }
-  
-  .image-container-os img {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-  }
-  
-  .content-os {
-    margin-top: 20px;
-    width: 40%;
-    display: flex;
-    justify-content: start;
-    align-content: flex-start;
-    flex-direction: column;
-  }
-  
-  .flexRight{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.formContainer{
-    width: 40%;
+.logo {
+  float: left;
+  margin-left: 20px;
 }
 
-.flexbox{
+.contactHeader {
+  background-image: url("../assets/Red Planet Ventures/Assets/Images/headerbackBack.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2em;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.648);
+  border-radius: 25px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  width: 90%;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navLinks li {
+  margin: 0 10px;
+}
+
+.navLinks a {
+  text-decoration: none;
+}
+
+.active {
+  color: red;
+}
+
+.flights,
+.contact {
+  color: #333;
+}
+
+.search-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.searchInput {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.searchIcon {
+  background-position: center;
+}
+
+.line {
+  height: 30px;
+  width: 1px;
+  background-color: lightgrey;
+  margin-left: 5px;
+}
+
+.search-container input[type="text"] {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.search-container button {
+  background: none;
+  border: none;
+}
+
+.basket {
+  position: relative;
+  margin-left: 10px;
+}
+
+.basket img {
+  width: 30px;
+}
+
+.badge {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+}
+
+.sm-items {
+  width: 97px 97px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container-os {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -176,7 +135,18 @@ body {
   margin-left: 5%;
 }
 
-.smContact{
+.image-container-os {
+  position: relative;
+  width: 45%;
+}
+
+.image-container-os img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.content-os {
   margin-top: 20px;
   width: 40%;
   display: flex;
@@ -185,61 +155,108 @@ body {
   flex-direction: column;
 }
 
-#contact input, #contact text, #contact button{
-    font-family: 'Roboto' , sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+.flexRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 40%;
+  height: 90vh;
 }
 
-#contact{
-    background-image: url('../assets/Red Planet Ventures/Assets/Images/formBack.png');
-    background-size: cover;
-    background-position: right;
-    padding: 2em 4em;
-    margin: 50px 0;
-    border-radius: 15px;
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 3em;
+  margin-left: 5%;
 }
 
-fieldset{
-    border: medium none !important;
-    margin: 0 0 10px;
-    min-width: 100%;
-    padding: 0;
-    width: 100%;
+.smContact {
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-content: flex-start;
+  flex-direction: column;
 }
 
-#contact input, #contact textarea{
-    width: 100%;
-    border: 1px solid #ccc;
-    background-color: #f3f3f3;
-    margin: 0 0 5px;
-    padding: 10px;
+#contact input,
+#contact text,
+#contact button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 20px !important;
+  border: none !important;
 }
 
-#contact textarea{
-    height: 100px;
-    max-width: 100%;
-    resize: none;
+#contact {
+  background-image: url("../assets/Red Planet Ventures/Assets/Images/formBack.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 2em 4em;
+  margin: 50px 0;
+  border-radius: 15px;
+  text-align: start;
+  color: white;
 }
 
-#contact button{
-    cursor: pointer;
-    width: 250px;
-    border: none;
-    background-color: #28c7cc;
-    color: #ffffff;
-    padding: 10px;
+#contact label {
+  color: white;
+  margin-bottom: 10px;
 }
 
-#contact input:hover, #contact textarea:hover{
-    border: 1px solid #0044ff;
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
 }
 
-#contact input:focus, #contact textarea:focus{
-    outline: 0;
-    border: 3px solid #ff0000;
+#contact input,
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+  margin: 0 0 5px;
+  padding: 20px !important;
+  border: none !important;
+  border-radius: 10px;
 }
 
-#contact button:hover{
-background-color: #28c7cc;
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button {
+  cursor: pointer;
+  width: 250px;
+  border: none;
+  background-color: #28c7cc;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#contact input:hover,
+#contact textarea:hover {
+  border: 1px solid #0044ff;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 3px solid #ff0000;
+}
+
+#contact button:hover {
+  background-color: #28c7cc;
 }
