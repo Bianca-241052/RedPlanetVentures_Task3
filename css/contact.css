@@ -203,18 +203,21 @@ nav {
   padding: 2em 4em;
   margin: 50px 0;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: start;
   color: white;
 }
 
-#contact label {
+label {
   color: white;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 fieldset {
   border: medium none !important;
-  margin: 0 0 10px;
+  margin: 10px;
   min-width: 100%;
   padding: 0;
   width: 100%;
@@ -222,10 +225,10 @@ fieldset {
 
 #contact input,
 #contact textarea {
-  width: 100%;
+  width: 90%;
   border: 1px solid #ccc;
   background-color: #f3f3f3;
-  margin: 0 0 5px;
+  margin: 10px;
   padding: 20px !important;
   border: none !important;
   border-radius: 10px;
