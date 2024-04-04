@@ -8,6 +8,20 @@ body {
     float: left;
     margin-left: 20px;
   }
+
+  .contactHeader{
+    background-image: url('../assets/Red Planet Ventures/Assets/Images/headerbackBack.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2em;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-direction: column; 
+  }
   
   nav {
     background-color: rgba(255, 255, 255, 0.648);
@@ -21,19 +35,6 @@ body {
     width: 90%;
   }
 
-  .contactHeader{
-  background-image: url('../assets/Red Planet Ventures/Assets/Images/headerbackBack.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 2em;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  flex-direction: column; 
-}
   .navLinks {
     list-style: none;
     display: flex;
