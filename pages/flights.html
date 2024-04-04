@@ -1,12 +1,14 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, Template"> 
-    <meta name="author" content="Bianca Binello 241052">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Bootstrap, Template"
+    />
+    <meta name="author" content="Bianca Binello 241052" />
 
     <title>Red Planet Ventures</title>
 
@@ -17,257 +19,350 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="../css/flights.css">
-    <link rel="stylesheet" href="../css/main.css">
-    
+    <link rel="stylesheet" href="../css/flights.css" />
+    <link rel="stylesheet" href="../css/main.css" />
   </head>
 
   <body>
     <header class="FlightsHeader">
-        <nav>
-            <div class="logo">
-              <img
-                src="../assets/Red Planet Ventures/Assets/Images/logo.png"
-                width="200px"
-              />
-            </div>
-            <ul class="navLinks">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="pages/contact.html">Contact Us</a></li>
-              <li><a class="active" href="pages/flights.html">Flights</a></li>
-            </ul>
-            <div class="search-container">
-              <button type="submit">
-                <img
-                  src="../assets/Red Planet Ventures/Assets/search-icon.png"
-                  width="20px"
-                />
-              </button>
-              <input class="searchInput" type="text" placeholder="Search..." />
-              <div class="line"></div>
-              <div class="basket">
-                <img class="searchIcon"
-                  src="../assets/Red Planet Ventures/Assets/Images/PikPng.com_basket-png_753198.png"
-                />
-                <span class="badge">2</span>
-              </div>
-            </div>
-          </nav>
+      <nav>
+        <div class="logo">
+          <img
+            src="../assets/Red Planet Ventures/Assets/Images/logo.png"
+            width="200px"
+          />
+        </div>
+        <ul class="navLinks">
+          <li><a class="active" href="../index.html">Home</a></li>
+          <li><a href="flights.html">Flights</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+          <button type="submit">
+            <img
+              src="../assets/Red Planet Ventures/Assets/search-icon.png"
+              width="20px"
+            />
+          </button>
+          <input class="searchInput" type="text" placeholder="Search..." />
+          <div class="line"></div>
+          <div class="basket">
+            <img
+              class="searchIcon"
+              src="../assets/Red Planet Ventures/Assets/Images/PikPng.com_basket-png_753198.png"
+            />
+            <span class="badge">2</span>
+          </div>
+        </div>
+      </nav>
       <h1>BOOK A FLIGHT</h1>
     </header>
-
-    <div class="Book-Container">
-      <div class="Flight-Info">
-          <div class="col-image">
-              <img src="../assets/Red Planet Ventures/Assets/Images/flighhtMars.png" alt="The Classic Mars Experience">
-          </div>
-          <div class="col-details">
-              <h2>The Classic Mars Experience</h2>
-              <p>R 25,000.00 </p>
-              <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
-              <p>Embark on a Mars vacation: red deserts, ancient relics, and towering canyons await. Enjoy low-gravity hiking, rover trips to Olympus Mons, and stargazing under Phobos and Deimos. Unforgettable adventures beckon on the rust-colored landscapes of the Red Planet.</p>
-              <div class="button-group">
-                  <button class="info-btn">&#128712;</button>
-                  <button class="book-btn">Book Now</button>
-              </div>
-              <div class="details">
-                  <p><strong>Stay:</strong> 7 days</p>
-                  <p><strong>Departure:</strong> Space Center, Earth</p>
-                  <p><strong>Availability:</strong> 10 seats left</p>
-              </div>
-          </div>
+    <div class="FilterCon">
+      <div class="LeftUtil">
+        <img
+          src="../assets/Red Planet Ventures/Assets/Images/filter.png"
+          height="20px"
+        />
+        <p>filter</p>
+        <img
+          src="../assets/Red Planet Ventures/Assets/Images/lines.png"
+          height="20px"
+        />
+        <img
+          src="../assets/Red Planet Ventures/Assets/Images/layout.png"
+          height="20px"
+        />
+        <div class="line"></div>
+        <p>Showing 1=16 of 32 results</p>
       </div>
-
-      <div class="Book-Container">
-          <div class="Flight-Info">
-            <div class="col-image">
-              <img src="../assets/Red Planet Ventures/Assets/Images/flightNeptune.png" alt="Neptune's Cosmic Dive">
-          </div>
-          <div class="col-details">
-              <h2>Neptune's Cosmic Dive</h2>
-              <p>R45,000.00<p>
-                <span class="rating">&#9733;&#9733;&#9733;&#9733;</span>
-              <p>Embark on a voyage to Neptune's abroad the "Neptune Voyager". Witness surreal vistas of swirling clouds and rings. Explore weightlessness and explore frigid oceans. Engage in thrilling spacewalks, observe celestial phenomena, and savor gourmet space cuisine. An unforgettable adventure awaits, blending luxury with cosmic exploration.</p>
-              <div class="button-group">
-                  <button class="info-btn">&#128712;</button>
-                  <button class="book-btn">Book Now</button>
-              </div>
-              <div class="details">
-                  <p><strong>Stay:</strong> 5 days</p>
-                  <p><strong>Departure:</strong> The Voyager</p>
-                  <p><strong>Experience Required:</strong> Advanced Experience</p>
-                  <p><strong>Distance:</strong> 4,700,151,000 km</p>
-              </div>
-          </div>
+      <div class="RightUtil">
+        <p>Show</p>
+        <button>6</button>
+        <bu>Sort By</bu>
+        <button>Default</button>
       </div>
+    </div>
 
-      <div class="Book-Container">
-        <div class="Flight-Info">
-          <div class="col-image">
-              <img src="../assets/Red Planet Ventures/Assets/Images/flightJupiter.png" alt="The Giant's Journey">
-          </div>
-          <div class="col-details">
-              <h2>The Giant's Journey</h2>
-              <p>R65,000.00</p>
-               <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-              <p>Embark on a Jupiter voyage aboard the "Jupiter Odyssey".Witness its majestic storms and swirling atmosphere. Dive into metallic hydrogen oceans. Explore its moons, each a world unto itself. Engage in gravity surfing, comet chasing, and space excursions. Experience cosmic wonder in luxury, blending exploration with adventure</p>
-              <div class="button-group">
-                  <button class="info-btn">&#128712;</button>
-                  <button class="book-btn">Book Now</button>
-              </div>
-              <div class="details">
-                  <p><strong>Stay:</strong> 10 days</p>
-                  <p><strong>Departure:</strong> The Voyager</p>
-                  <p><strong>Experience Required:</strong> Advanced Experience</p>
-                  <p><strong>Distance:</strong> 628,730,818 km</p>
-              </div>
-          </div>
+    <div class="Flight-Info">
+      <div class="col-image">
+        <img
+          src="../assets/Red Planet Ventures/Assets/Images/flighhtMars.png"
+          alt="The Classic Mars Experience"
+        />
       </div>
+      <div class="col-details">
+        <h2>The Classic Mars Experience</h2>
+        <div class="pricing">
+          <p>R 25,000.00</p>
+          <p><s>R 50,000.00</s></p>
+        </div>
+        
 
-      <div class="Book-Container">
-        <div class="Flight-Info">
-          <div class="col-image">
-              <img src="../assets/Red Planet Ventures/Assets/Images/flightSaturn.png" alt="Ring Around a Saturn">
+        <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+        <p>
+          Embark on a Mars vacation: red deserts, ancient relics, and towering
+          canyons await. Enjoy low-gravity hiking, rover trips to Olympus Mons,
+          and stargazing under Phobos and Deimos. Unforgettable adventures
+          beckon on the rust-colored landscapes of the Red Planet.
+        </p>
+        <div class="button-group">
+          <div class="qtaBox">
+            <p>-</p>
+            <input value="1" class="info-btn"/>
+            <p>+</p>
           </div>
-          <div class="col-details">
-              <h2>Ring Around a Saturn</h2>
-              <p>R40,000.00</p>
-              <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-              <p>Embark on a thrilling voyage to Saturn aboard the "Saturn Explorer". Marvel at its iconic rings and turbulent storms. Explore its diverse moons,from icy Enceladus to mysterious Titan, with activities including rover expeditions and cave exploration. Experience the wonders of the cosmos amidst luxurious accommodations where the thrill of discovery intertwines seamlessly with the excitement of adventure.</p>
-              <div class="button-group">
-                  <button class="info-btn">&#128712;</button>
-                  <button class="book-btn">Book Now</button>
-              </div>
-              <div class="details">
-                  <p><strong>Stay:</strong> 9 days</p>
-                  <p><strong>Departure:</strong> The Explorer</p>
-                  <p><strong>Experience Required:</strong> Intermediate</p>
-                  <p><strong>Distance:</strong> 1,426,725,000 km</p>
-              </div>
-          </div>
+          
+          <button class="book-btn">Book Now</button>
+        </div>
+
+        <hr style="color:gray;background-color:gray;width: 100%;">
+
+        <div class="details">
+          <p><strong>Stay:</strong> 7 days</p>
+          <p><strong>Departure:</strong> Space Center, Earth</p>
+          <p><strong>Availability:</strong> 10 seats left</p>
+        </div>
       </div>
+    </div>
 
-      <div class="Book-Container">
-        <div class="Flight-Info">
-          <div class="col-image">
-              <img src="../assets/Red Planet Ventures/Assets/Images/flightUranus.png" alt="Uranus Uncharted">
-          </div>
-          <div class="col-details">
-              <h2>Uranus Uncharted</h2>
-              <p>R50,000.00</p> <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-              <p>Embark on a cosmic adventure to Uranus with our "Uranus Unveiled" tour.Explore its icy atmosphere and captivating moons. Experience thrilling zero-gravity excursions, witness mesmerizing auroras and immerse yourself in celestial photography workshops. With luxury accommodations and expert guides, discover the wonders of Uranus in a journey of a lifetime.</p>
-              <div class="button-group">
-                  <button class="info-btn">&#128712;</button>
-                  <button class="book-btn">Book Now</button>
-              </div>
-              <div class="details">
-                  <p><strong>Stay:</strong> 12 days</p>
-                  <p><strong>Departure:</strong> The Voyager</p>
-                  <p><strong>Experience Required:</strong> Advanced Experience</p>
-                  <p><strong>Distance:</strong> 2,871,116,000 km</p>
-              </div>
-          </div>
+    <div class="Flight-Info purple">
+      <div class="col-image">
+        <img
+          src="../assets/Red Planet Ventures/Assets/Images/flightNeptune.png"
+          alt="Neptune's Cosmic Dive"
+        />
       </div>
+      <div class="col-details">
+        <h2>Neptune's Cosmic Dive</h2>
+        <p>R45,000.00</p>
+        <p>
+          <span class="rating">&#9733;&#9733;&#9733;&#9733;</span>
+        </p>
 
-      <div class="Book-Container">
-        <div class="Flight-Info">
-          <div class="col-image">
-              <img src="../assets/Red Planet Ventures/Assets/Images/flightMoon.png" alt="Moonlight Meander">
+        <p>
+          Embark on a voyage to Neptune's abroad the "Neptune Voyager". Witness
+          surreal vistas of swirling clouds and rings. Explore weightlessness
+          and explore frigid oceans. Engage in thrilling spacewalks, observe
+          celestial phenomena, and savor gourmet space cuisine. An unforgettable
+          adventure awaits, blending luxury with cosmic exploration.
+        </p>
+        <div class="button-group">
+          <button class="info-btn">&#128712;</button>
+          <button class="book-btn">Book Now</button>
+        </div>
+        <div class="details">
+          <p><strong>Stay:</strong> 5 days</p>
+          <p><strong>Departure:</strong> The Voyager</p>
+          <p><strong>Experience Required:</strong> Advanced Experience</p>
+          <p><strong>Distance:</strong> 4,700,151,000 km</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="Flight-Info">
+      <div class="col-image">
+        <img
+          src="../assets/Red Planet Ventures/Assets/Images/flightJupiter.png"
+          alt="The Giant's Journey"
+        />
+      </div>
+      <div class="col-details">
+        <h2>The Giant's Journey</h2>
+        <p>R65,000.00</p>
+        <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <p>
+          Embark on a Jupiter voyage aboard the "Jupiter Odyssey".Witness its
+          majestic storms and swirling atmosphere. Dive into metallic hydrogen
+          oceans. Explore its moons, each a world unto itself. Engage in gravity
+          surfing, comet chasing, and space excursions. Experience cosmic wonder
+          in luxury, blending exploration with adventure
+        </p>
+        <div class="button-group">
+          <button class="info-btn">&#128712;</button>
+          <button class="book-btn">Book Now</button>
+        </div>
+        <div class="details">
+          <p><strong>Stay:</strong> 10 days</p>
+          <p><strong>Departure:</strong> The Voyager</p>
+          <p><strong>Experience Required:</strong> Advanced Experience</p>
+          <p><strong>Distance:</strong> 628,730,818 km</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="Flight-Info purple">
+      <div class="col-image">
+        <img
+          src="../assets/Red Planet Ventures/Assets/Images/flightSaturn.png"
+          alt="Ring Around a Saturn"
+        />
+      </div>
+      <div class="col-details">
+        <h2>Ring Around a Saturn</h2>
+        <p>R40,000.00</p>
+        <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <p>
+          Embark on a thrilling voyage to Saturn aboard the "Saturn Explorer".
+          Marvel at its iconic rings and turbulent storms. Explore its diverse
+          moons,from icy Enceladus to mysterious Titan, with activities
+          including rover expeditions and cave exploration. Experience the
+          wonders of the cosmos amidst luxurious accommodations where the thrill
+          of discovery intertwines seamlessly with the excitement of adventure.
+        </p>
+        <div class="button-group">
+          <button class="info-btn">&#128712;</button>
+          <button class="book-btn">Book Now</button>
+        </div>
+        <div class="details">
+          <p><strong>Stay:</strong> 9 days</p>
+          <p><strong>Departure:</strong> The Explorer</p>
+          <p><strong>Experience Required:</strong> Intermediate</p>
+          <p><strong>Distance:</strong> 1,426,725,000 km</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="Flight-Info">
+      <div class="col-image">
+        <img
+          src="../assets/Red Planet Ventures/Assets/Images/flightUranus.png"
+          alt="Uranus Uncharted"
+        />
+      </div>
+      <div class="col-details">
+        <h2>Uranus Uncharted</h2>
+        <p>R50,000.00</p>
+        <span class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <p>
+          Embark on a cosmic adventure to Uranus with our "Uranus Unveiled"
+          tour.Explore its icy atmosphere and captivating moons. Experience
+          thrilling zero-gravity excursions, witness mesmerizing auroras and
+          immerse yourself in celestial photography workshops. With luxury
+          accommodations and expert guides, discover the wonders of Uranus in a
+          journey of a lifetime.
+        </p>
+        <div class="button-group">
+          <button class="info-btn">&#128712;</button>
+          <button class="book-btn">Book Now</button>
+        </div>
+        <div class="details">
+          <p><strong>Stay:</strong> 12 days</p>
+          <p><strong>Departure:</strong> The Voyager</p>
+          <p><strong>Experience Required:</strong> Advanced Experience</p>
+          <p><strong>Distance:</strong> 2,871,116,000 km</p>
+        </div>
+      </div>
+    </div>
+
+      <div class="Flight-Info purple">
+        <div class="col-image">
+          <img
+            src="../assets/Red Planet Ventures/Assets/Images/flightMoon.png"
+            alt="Moonlight Meander"
+          />
+        </div>
+        <div class="col-details">
+          <h2>Moonlight Meander</h2>
+          <p>R15,000.00</p>
+          <span class="rating">&#9733;&#9733;&#9733;&#9733;</span>
+          <p>
+            Experience the ultimate lunar getaway with out "Moonlight Meander"
+            package. Depart Earth's atmosphere aboard the "Celestial Cruiser"
+            for a short but unforgettable journey to the moon. Enjoy lunar
+            walks, breathtaking views of Earthrise, and stargazing under the
+            moon's serene glow. Immerse yourself in luxury accommodations amidst
+            the tranquility of space.
+          </p>
+          <div class="button-group">
+            <button class="info-btn">&#128712;</button>
+            <button class="book-btn">Book Now</button>
           </div>
-          <div class="col-details">
-              <h2>Moonlight Meander</h2>
-              <p>R15,000.00</p>
-               <span class="rating">&#9733;&#9733;&#9733;&#9733;</span>
-              <p>Experience the ultimate lunar getaway with out "Moonlight Meander" package. Depart Earth's atmosphere aboard the "Celestial Cruiser" for a short but unforgettable journey to the moon. Enjoy lunar walks, breathtaking views of Earthrise, and stargazing under the moon's serene glow. Immerse yourself in luxury accommodations amidst the tranquility of space.</p>
-              <div class="button-group">
-                  <button class="info-btn">&#128712;</button>
-                  <button class="book-btn">Book Now</button>
-              </div>
-              <div class="details">
-                  <p><strong>Stay:</strong> 3 days</p>
-                  <p><strong>Departure:</strong> The Voyager</p>
-                  <p><strong>Experience Required:</strong> Basic</p>
-                  <p><strong>Distance:</strong> 384,400 km</p>
-              </div>
+          <div class="details">
+            <p><strong>Stay:</strong> 3 days</p>
+            <p><strong>Departure:</strong> The Voyager</p>
+            <p><strong>Experience Required:</strong> Basic</p>
+            <p><strong>Distance:</strong> 384,400 km</p>
           </div>
+        </div>
       </div>
 
       <div class="view-cart">
-          <button>View Cart</button>
-      </div>
-  </div>
-
-<footer class="footer">
-    <div class="footer-top">
-      <div class="company-info">
-        <div class="logoFooter">
-          <img
-            src="../assets/Red Planet Ventures/Assets/Images/logo.png"
-            width="250px"
-          />
-        </div>
-        <span class="tagline"
-          >Offering unforgettable trips to explore planets in our solar
-          system.</span
-        >
-      </div>
-      <nav class="footer-nav">
-        <div class="nav-links">
-          <div class="SocialTile">Company</div>
-          <a href="#">Home</a>
-          <a href="#">Flights</a>
-          <a href="#">Contact Us</a>
-        </div>
-      </nav>
-
-      <div class="social-links">
-        <div class="SocialTile">Social Media Links</div>
-
-        <div class="sm-item">
-          <a href="https://www.instagram.com/"
-            ><i class="fab fa-instagram">
-              <img
-                src="../assets/Red Planet Ventures/Assets/Images/smInstagram.png"
-                alt="Instagram"
-                width="60px"
-              /> </i
-          ></a>
-          <a href="https://www.tiktok.com/"
-            ><i class="fab fa-tiktok">
-              <img
-                src="../assets/Red Planet Ventures/Assets/Images/smTicktock.png"
-                alt="Ticktock"
-                width="60px"
-              /> </i
-          ></a>
-          <a href="https://www.facebook.com/"
-            ><i class="fab fa-tiktok">
-              <img
-                src="../assets/Red Planet Ventures/Assets/Images/smFacebook.png"
-                alt="Facebook"
-                width="60px"
-              /> </i
-          ></a>
-          <a href="https://www.x.com/"
-            ><i class="fab fa-facebook-f">
-              <img
-                src="../assets/Red Planet Ventures/Assets/Images/smX.png"
-                alt="X"
-                width="60px"
-              /> </i
-          ></a>
-        </div>
+        <button>View Cart</button>
       </div>
     </div>
 
-    <hr>
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="company-info">
+          <div class="logoFooter">
+            <img
+              src="../assets/Red Planet Ventures/Assets/Images/logo.png"
+              width="250px"
+            />
+          </div>
+          <span class="tagline"
+            >Offering unforgettable trips to explore planets in our solar
+            system.</span
+          >
+        </div>
+        <nav class="footer-nav">
+          <div class="nav-links">
+            <div class="SocialTile">Company</div>
+            <a href="#">Home</a>
+            <a href="#">Flights</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </nav>
 
-    <div class="footer-bottom">
-      <p class="legal-text">All Rights Reserved &copy; Open Window 2024</p>
-      <div class="links">
-        <a href="#">Terms &amp; Conditions</a>
-        <a href="#">Privacy &amp; Policy</a>
+        <div class="social-links">
+          <div class="SocialTile">Social Media Links</div>
+
+          <div class="sm-item">
+            <a href="https://www.instagram.com/"
+              ><i class="fab fa-instagram">
+                <img
+                  src="../assets/Red Planet Ventures/Assets/Images/smInstagram.png"
+                  alt="Instagram"
+                  width="60px"
+                /> </i
+            ></a>
+            <a href="https://www.tiktok.com/"
+              ><i class="fab fa-tiktok">
+                <img
+                  src="../assets/Red Planet Ventures/Assets/Images/smTicktock.png"
+                  alt="Ticktock"
+                  width="60px"
+                /> </i
+            ></a>
+            <a href="https://www.facebook.com/"
+              ><i class="fab fa-tiktok">
+                <img
+                  src="../assets/Red Planet Ventures/Assets/Images/smFacebook.png"
+                  alt="Facebook"
+                  width="60px"
+                /> </i
+            ></a>
+            <a href="https://www.x.com/"
+              ><i class="fab fa-facebook-f">
+                <img
+                  src="../assets/Red Planet Ventures/Assets/Images/smX.png"
+                  alt="X"
+                  width="60px"
+                /> </i
+            ></a>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
-</body> </html>
+
+      <hr />
+
+      <div class="footer-bottom">
+        <p class="legal-text">All Rights Reserved &copy; Open Window 2024</p>
+        <div class="links">
+          <a href="#">Terms &amp; Conditions</a>
+          <a href="#">Privacy &amp; Policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
