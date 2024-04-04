@@ -20,6 +20,13 @@ body {
   justify-content: space-between;
 }
 
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
 .FlightsHeader {
   background-image: url("../assets/Red Planet Ventures/Assets/Images/headerbackBack.png");
   background-position: center;
@@ -40,6 +47,8 @@ body {
 
 .pricing {
   display: flex;
+  justify-content: space-between;
+  width: 50%;
 }
 
 .container {
@@ -128,7 +137,7 @@ body {
 }
 
 .view-cart {
-  text-align: center;
+  text-align: ;
   margin-top: 20px;
 }
 
